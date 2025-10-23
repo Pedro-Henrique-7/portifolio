@@ -1,11 +1,69 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+:root {
+    --primary-color: #9aaba9;
+    --second-color: #b9c5c4;
+    --thirty-color: #c4e1dc;
+    --fourt-color: #f0f6f5;
+    --fifth-color: #ffffff;
+}
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--fourt-color);
 }
 
 ul,
 ol,
-li{
+li {
     list-style: none;
+}
+
+body {
+    padding-inline: 64px;
+}
+
+header {
+    padding-top: 64px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h3 {
+    font-size: 16px;
+    color: var(--primary-color);
+    border-bottom: solid 3px #8b9a99;
+    height: 48px;
+}
+
+header .container-header .left {
+    width: 50%;
+}
+
+header .container-header .right {
+    width: 50%;
+    background-color: var(--primary-color);
+    padding-top: 20px;
+}
+
+header .container-header h1 {
+    font-size: 48px;
+    padding-top: 20px;
+    color: #7c8988;
+}
+
+header .container-header .left span {
+    font-size: medium;
+    color: var(--second-color);
+    font-weight: 400;
+}
+
+.container-header .left .desc {
+    padding-top: 24px;
+    width: 70%;
 }
