@@ -95,23 +95,48 @@ header .container-header .left span {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 5vw);
-    grid-row-gap: 100px;
+    grid-row-gap: 128px;
+    column-gap: 48px;
 }
 
 .stacks-habilidades .container-galeria .stack {
     display: flex;
+    align-items: start;
     gap: 20px;
+}
+
+.stacks-habilidades .container-galeria .stack .foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .stacks-habilidades .container-galeria .stack img {
     width: 88px;
-    border: outset 3px #7c89887e;
+    color: #7c8988;
+    border: inset 3px #7c89887e;
+    background-color: #f6f6f689;
 }
 
-.stacks-habilidadesc .container-galeria h2 {
-    font-
+.stacks-habilidades .container-galeria .stack .desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.stacks-habilidades .container-galeria .stack .desc h2 {
+    font-size: 18px;
+    color: #6b7574;
 }
 
 .stacks-habilidades .container-galeria .stack .desc ul {
+    display: flex;
+    flex-direction: column;
     margin-left: 20px;
+    color: #9aaba9;
+    gap: 5px;
+}
+
+.stacks-habilidades .container-galeria .stack .desc li {
+    font-size: 14px;
 }
