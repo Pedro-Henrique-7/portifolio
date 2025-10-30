@@ -157,7 +157,7 @@ header .container-header .left span {
 
 .projetos {
     border-bottom: solid 3px #6b7574;
-    height: 85 0px;
+    height: 850px;
 }
 
 .projetos .main-projetos {
@@ -198,4 +198,39 @@ header .container-header .left span {
 
 .projetos .main-projetos .projeto p {
     width: 400px;
+}
+
+.experiencia-profissional h2 {
+    color: var(--primary-color);
+    height: 36px;
+    margin-top: 50px;
+    border-bottom: 3px solid var(--primary-color);
+    width: 200px;
+    border-radius: 4px;
+}
+
+.experiencia-profissional p {
+    margin-top: 20px;
+}
+
+.experiencia-profissional {
+    height: 400px;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.experiencia-profissional .experiencia {
+    margin-top: 60px;
+}
+
+.experiencia-profissional .experiencia h3 {
+    color: var(--primary-color);
+    height: 40px;
+    margin-top: 50px;
+    border-bottom: 3px solid var(--primary-color);
+    width: 500px;
+    border-radius: 4px;
+}
+
+.experiencia-profissional .experiencia p {
+    margin-top: 20px;
 }
