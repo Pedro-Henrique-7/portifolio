@@ -81,6 +81,11 @@ header .container-header .left span {
     width: 70%;
 }
 
+.stacks-habilidades {
+    border-bottom: solid 3px #6b7574;
+    height: 500px;
+}
+
 .stacks-habilidades .section-stack-header h2 {
     color: var(--primary-color);
     height: 36px;
@@ -139,4 +144,58 @@ header .container-header .left span {
 
 .stacks-habilidades .container-galeria .stack .desc li {
     font-size: 14px;
+}
+
+.section-projetos-header h2 {
+    color: var(--primary-color);
+    height: 36px;
+    margin-top: 50px;
+    border-bottom: 3px solid var(--primary-color);
+    width: 200px;
+    border-radius: 4px;
+}
+
+.projetos {
+    border-bottom: solid 3px #6b7574;
+    height: 85 0px;
+}
+
+.projetos .main-projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.projetos .main-projetos .projeto img {
+    width: 500px;
+    height: 400px;
+    border-radius: 12px;
+}
+
+.projetos .main-projetos .projeto img:hover {
+    transition-property: transform;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    opacity: 100%;
+    transform: scale(1.02);
+}
+
+.projetos .main-projetos .projeto button {
+    width: 400px;
+    height: 40px;
+}
+
+.projetos .main-projetos .projeto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.projetos .main-projetos .projeto p {
+    width: 400px;
 }
